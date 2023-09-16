@@ -1,0 +1,13 @@
+---
+author: "Peace Sandy"
+title: "Regular Expression in Javascript"
+date: "2022-05-17"
+---
+
+This is my very first post on my Hugo website!
+The Hugo theme being used for this site is called Tale.
+It is very simple to install and configure.
+# Subheading
+This is some content.
+# Another Subheading
+This is more content.
