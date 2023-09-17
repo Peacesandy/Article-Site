@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>An Article Regular Expression</title>
+    <link>https://example.org/</link>
+    <description>Recent content on An Article Regular Expression</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Regular Expression in Javascript</title>
+      <link>https://example.org/myfirstpost/</link>
+      <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/myfirstpost/</guid>
+      <description>You may have encountered an error while filling out a form, which could be due to an incorrect email address or an invalid password. This error-checking mechanism uses a regular expression, or Regex in Javascript, to validate the input. With the help of a regular expression, we can examine a series of characters to determine whether they meet specific criteria. REGEX is short for regular expressions. Regular expressions can be found in many programming languages used today and are used to perform various functions.</description>
+    </item>
+    
+  </channel>
+</rss>
