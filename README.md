@@ -67,9 +67,9 @@ After you have added the metadata, you can start adding your content using Markd
 This is my very first post on my Hugo website!
 The Hugo theme being used for this site is called Tale.
 It is very simple to install and configure.
-# Subheading
+#Subheading
 This is some content.
-# Another Subheading
+#Another Subheading
 This is more content.
 Feel free to add more markdown files to add more pages to your website.
 
