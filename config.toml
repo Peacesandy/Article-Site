@@ -1,0 +1,5 @@
+baseURL = 'http://localhost:54423/'
+languageCode = 'en-us'
+title = 'An Article Regular Expression'
+
+theme = "tale"
