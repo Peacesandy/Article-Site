@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'http://localhost:54423/'
 languageCode = 'en-us'
 title = 'An Article Regular Expression'
 
