@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:54423/'
+baseURL = 'https://bahrainjdm.netlify.app/'
 languageCode = 'en-us'
 title = 'An Article Regular Expression'
 
