@@ -27,10 +27,8 @@ Programming languages come with Regex engines that execute regular expressions d
 
 Regular expressions are objects that can be created using the RegExp constructor or by enclosing a pattern in forward slash (/) characters and writing it as a literal value. Both literal notations and the RegEx constructor can be used to create regular expressions.
 
-
-
-const regExpStr = 'Hi Everyone! hi everyone';
-
+`const regExpStr = 'Hi Everyone! hi everyone'`
+</br>
 // Syntax: /pattern/flags
 `const regExpLiteral = /Hi/gi;`
 

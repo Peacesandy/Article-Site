@@ -1,5 +1,5 @@
 baseURL = 'https://javascript-regex.netlify.app/'
 languageCode = 'en-us'
-title = 'An Article Regular Expression'
+title = 'An Article on Javascript Regular Expression'
 
 theme = "tale"
