@@ -132,6 +132,6 @@ In this article, we have explored the workings of regular expressions, including
 
 I hope you found this post insightful.
 
-I'd love to connect with you on [Twitter](http://twitter.com/PeaceSandy3) LinkedIn GitHub
+I'd love to connect with you on [Twitter](http://twitter.com/PeaceSandy3) [LinkedIn](https://www.linkedin.com/in/peace-sandy-bb7a691b0) [GitHub](https://github.com/Peacesandy)
 
 I'll see you in my next blog post. Take care!
