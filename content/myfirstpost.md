@@ -24,39 +24,47 @@ Programming languages come with Regex engines that execute regular expressions d
 Regular expressions are objects that can be created using the RegExp constructor or by enclosing a pattern in forward slash (/) characters and writing it as a literal value. Both literal notations and the RegEx constructor can be used to create regular expressions.
 
 `const regExpStr = 'Hi Everyone! hi everyone'`
-</br>
+<br>
 // Syntax: /pattern/flags
 `const regExpLiteral = /Hi/gi`
 
 `console.log(regExpStr.match(regExpLiteral))`
 // Output: ['Hi', 'hi']
 
-The Regex constructor accepts two arguments
+<br>
 
+The Regex constructor accepts two arguments
 `let RegExp = (pattern, flags)`
 
 ## Terms in RegEx
 When using Regular Expressions, you may encounter various terminologies. Today, we will explore the commonly used terminologies in Regular Expressions.
 
 **String**
+<br>
 A string is a combination of characters; this can be a letter, a word, or a sentence. When a pattern is applied to a string, you can get the parts of that string (substring) that match the defined pattern. Substring refers to specific parts of the whole string. A string can be made up of different characters.
 
  **Letters**
+ <br>
  When you come across the letter casing, it can either be uppercase or lowercase.
 
 **Symbols**
+<br>
 A symbol is a character or a sign, they are special characters, that have meanings. examples include: $ , ^ , & ,* , @ , ! etc.
 
 **Whitespace**
+<br>
 This refers to the horizontal or vertical space between characters. Horizontal space can be obtained by clicking on the single & tab spaces, while vertical is the newline space, which is the space between one line and the other, or line break.
 
 **Character**
+<br>
 Characters refer to digits, letters, symbols, or whitespace. All of these are classified as characters.
 
 **Pattern**
+<br>
 In simple terms, what you are looking for can match a combination of characters in a string.
 
 **Flags** 
+<br>
 Most regular expressions have some default behaviors; these flags are optional characters that can be added at the end of your pattern to change some of those default behaviors.
 
 <br>
@@ -66,28 +74,33 @@ Flags, also known as modifiers, are additional parameters that can be passed to 
 There are four common flags in Regex, they include;
 
 **g-Global** 
+<br>
 By default, a regular expression only matches the first set of characters in a string. However, using the global flag g returns all matches.
 
 **i-case-insensitive**
+<br>
 The case-insensitive flag removes all case restrictions in the matches. By default, regular expressions are case-sensitive; to change the pattern, use the flag.
 
 **s-Newline flag**
+<br>
  By default, the dot sign . is a special character that matches any kind of character except a newline. To remove the default, you can add s flag.
 
 **m-multiline match flag** 
+<br>
 The symbol /m is used for multiline matches. The symbol ^, which is used at the beginning of a regular expression, matches the beginning of a string. Similarly, the symbol $, which is used at the end of a regular expression, matches the end of a string.
 
 ## Regular Expression Method
 There are various methods used in Regular Expression, they include;
 
 **The test() Method**
+<br>
 The simplest one is the test() method. The test() method compares the target text with the regex pattern and returns a Boolean telling you if the string contains a match of the pattern in the expression.
 
-`const regExp = /hello/i;
+`const regExp = /hello/i`;
 
-console.log(regExp.test('hello')); // Output: true
+`console.log(regExp.test('hello'))`; // Output: true
 
-console.log(regExp.test('peace')); // Output: false `
+`console.log(regExp.test('peace'))`; // Output: false `
 
 Also, there are string methods that accept regular expressions. They include.
 
@@ -117,6 +130,6 @@ In this article, we have explored the workings of regular expressions, including
 
 I hope you found this post insightful.
 
-I'd love to connect with you on Twitter LinkedIn GitHub
+I'd love to connect with you on [Twitter](http://twitter.com/PeaceSandy3) LinkedIn GitHub
 
 I'll see you in my next blog post. Take care!
