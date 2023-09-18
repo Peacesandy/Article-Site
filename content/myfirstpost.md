@@ -36,34 +36,34 @@ Regular expressions are objects that can be created using the RegExp constructor
 The RegEx constructor accepts two arguments
 `let RegExp = (pattern, flags)`
 
-## Terms in RegEx
+## Terms used in RegEx
 When using Regular Expressions, you may encounter various terminologies. Today, we will explore the commonly used terminologies in Regular Expressions.
 
-**String**
+**String:**
 <br>
 A string is a combination of characters; this can be a letter, a word, or a sentence. When a pattern is applied to a string, you can get the parts of that string (substring) that match the defined pattern. Substring refers to specific parts of the whole string. A string can be made up of different characters.
 
- **Letters**
+ **Letters:**
  <br>
  When you come across the letter casing, it can either be uppercase or lowercase.
 
-**Symbols**
+**Symbols:**
 <br>
 A symbol is a character or a sign, they are special characters, that have meanings. examples include: $ , ^ , & ,* , @ , ! etc.
 
-**Whitespace**
+**Whitespace:**
 <br>
 This refers to the horizontal or vertical space between characters. Horizontal space can be obtained by clicking on the single & tab spaces, while vertical is the newline space, which is the space between one line and the other, or line break.
 
-**Character**
+**Character:**
 <br>
 Characters refer to digits, letters, symbols, or whitespace. All of these are classified as characters.
 
-**Pattern**
+**Pattern:**
 <br>
 In simple terms, what you are looking for can match a combination of characters in a string.
 
-**Flags** 
+**Flags:** 
 <br>
 Most regular expressions have some default behaviors; these flags are optional characters that can be added at the end of your pattern to change some of those default behaviors.
 
@@ -73,26 +73,26 @@ Most regular expressions have some default behaviors; these flags are optional c
 Flags, also known as modifiers, are additional parameters that can be passed to regular expressions to alter their default behavior. These modifiers can be used to specify how you want to match the expression. In literal notation, these modifiers are added to the end of the last forward slash (/) used in the expression.
 There are four common flags in Regex, they include;
 
-**g-Global** 
+**g-Global:** 
 <br>
 By default, a regular expression only matches the first set of characters in a string. However, using the global flag g returns all matches.
 
-**i-case-insensitive**
+**i-case-insensitive:**
 <br>
 The case-insensitive flag removes all case restrictions in the matches. By default, regular expressions are case-sensitive; to change the pattern, use the flag.
 
-**s-Newline flag**
+**s-Newline flag:**
 <br>
  By default, the dot sign . is a special character that matches any kind of character except a newline. To remove the default, you can add s flag.
 
-**m-multiline match flag** 
+**m-multiline match flag:** 
 <br>
 The symbol /m is used for multiline matches. The symbol ^, which is used at the beginning of a regular expression, matches the beginning of a string. Similarly, the symbol $, which is used at the end of a regular expression, matches the end of a string.
 
-## Regular Expression Method
+## Regular Expression Methods
 There are various methods used in Regular Expression, they include;
 
-**The test() Method**
+**The test() Method:**
 <br>
 The simplest one is the test() method. The test() method compares the target text with the regex pattern and returns a Boolean telling you if the string contains a match of the pattern in the expression.
 
@@ -103,6 +103,7 @@ The simplest one is the test() method. The test() method compares the target tex
 `console.log(regExp.test('peace'))`; // Output: false `
 
 Also, there are string methods that accept regular expressions. 
+<br/>
 They include;
 
 `.split()`
