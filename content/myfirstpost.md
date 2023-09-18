@@ -65,24 +65,22 @@ Most regular expressions have some default behaviors; these flags are optional c
 Flags, also known as modifiers, are additional parameters that can be passed to regular expressions to alter their default behavior. These modifiers can be used to specify how you want to match the expression. In literal notation, these modifiers are added to the end of the last forward slash (/) used in the expression.
 There are four common flags in Regex, they include;
 
-## g Global: 
+**g-Global** 
 By default, a regular expression only matches the first set of characters in a string. However, using the global flag g returns all matches.
 
-## i case-insensitive: 
+**i-case-insensitive**
 The case-insensitive flag removes all case restrictions in the matches. By default, regular expressions are case-sensitive; to change the pattern, use the flag.
 
-## sNewline flag:
+**s-Newline flag**
  By default, the dot sign . is a special character that matches any kind of character except a newline. To remove the default, you can add s flag.
 
-## m multiline match flag: 
+**m-multiline match flag** 
 The symbol /m is used for multiline matches. The symbol ^, which is used at the beginning of a regular expression, matches the beginning of a string. Similarly, the symbol $, which is used at the end of a regular expression, matches the end of a string.
 
 ## Regular Expression Method
+There are various methods used in Regular Expression, they include;
 
-There are various methods used in Regular Expression.
-
-## The test() Method
-
+**The test() Method**
 The simplest one is the test() method. The test() method compares the target text with the regex pattern and returns a Boolean telling you if the string contains a match of the pattern in the expression.
 
 `const regExp = /hello/i;
@@ -92,10 +90,6 @@ console.log(regExp.test('hello')); // Output: true
 console.log(regExp.test('peace')); // Output: false `
 
 Also, there are string methods that accept regular expressions. They include.
-
-Method
-
-Description
 
 `.split()`
 
