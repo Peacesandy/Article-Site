@@ -1,6 +1,6 @@
 ---
 author: "Peace Sandy"
-title: "Regular Expression in JavaScript"
+title: "Regular Expressions in JavaScript"
 date: "2022-08-16"
 ---
 You may have encountered an error while filling out a form, which could be due to an incorrect email address or an invalid password. This error-checking mechanism uses a regular expression, or RegEx in JavaScript, to validate the input. With the help of a regular expression, we can examine a series of characters to determine whether they meet specific criteria. RegEx is short for regular expressions. Regular expressions can be found in many programming languages used today and are used to perform various functions. In this article, we are going to be looking at regular expressions in JavaScript.
