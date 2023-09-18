@@ -102,7 +102,8 @@ The simplest one is the test() method. The test() method compares the target tex
 
 `console.log(regExp.test('peace'))`; // Output: false `
 
-Also, there are string methods that accept regular expressions. They include.
+Also, there are string methods that accept regular expressions. 
+They include;
 
 `.split()`
 
