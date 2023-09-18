@@ -3,9 +3,9 @@ author: "Peace Sandy"
 title: "Regular Expression in Javascript"
 date: "2022-08-16"
 ---
-You may have encountered an error while filling out a form, which could be due to an incorrect email address or an invalid password. This error-checking mechanism uses a regular expression, or Regex in Javascript, to validate the input. With the help of a regular expression, we can examine a series of characters to determine whether they meet specific criteria. REGEX is short for regular expressions. Regular expressions can be found in many programming languages used today and are used to perform various functions. In this article, we are going to be looking at regular expressions in Javascript.
+You may have encountered an error while filling out a form, which could be due to an incorrect email address or an invalid password. This error-checking mechanism uses a regular expression, or RegEx in Javascript, to validate the input. With the help of a regular expression, we can examine a series of characters to determine whether they meet specific criteria. RegEx is short for regular expressions. Regular expressions can be found in many programming languages used today and are used to perform various functions. In this article, we are going to be looking at regular expressions in Javascript.
 
-## REGEX (Regular Expressions)
+## RegEx (Regular Expressions)
 Regular expressions are used to create patterns matching different parts of a string. Using a regular expression, you can define practices like; a letter preceded by a hyphen, a symbol followed by a number, or a bunch of different characters in a defined order. Regular expressions are supported in many other programming languages, and they have similar concepts. What this means is that a regular expression in one language will most likely achieve the same result in another language. However, there can be slight differences, which depend on the programming language or the Regex engine running the expression. Also, there can be multiple regular expressions for different patterns. Regular expressions can be used to define patterns.
 
 ## Why Regular Expressions?
@@ -33,7 +33,7 @@ Regular expressions are objects that can be created using the RegExp constructor
 
 <br>
 
-The Regex constructor accepts two arguments
+The RegEx constructor accepts two arguments
 `let RegExp = (pattern, flags)`
 
 ## Terms in RegEx
