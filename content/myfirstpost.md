@@ -1,6 +1,6 @@
 ---
 author: "Peace Sandy"
-title: "Regular Expressions in JavaScript"
+title: "JavaScript Handbook for Beginners"
 date: "2022-08-16"
 ---
 ![Alt text](content\javascriptdocumentation.png)
