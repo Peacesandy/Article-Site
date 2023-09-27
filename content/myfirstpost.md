@@ -2,7 +2,7 @@
 author: "Peace Sandy"
 title: "JavaScript Handbook for Beginners"
 date: "2022-08-16"
-image: "content\javascriptdocumentation.png"
+image: "Images\documentationsite.png"
 ---
 
 ![](Images\documentationsite.png)
