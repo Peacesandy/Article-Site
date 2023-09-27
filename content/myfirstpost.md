@@ -2,8 +2,9 @@
 author: "Peace Sandy"
 title: "JavaScript Handbook for Beginners"
 date: "2022-08-16"
+image: "content\javascriptdocumentation.png"
 ---
-![Alt text](content\javascriptdocumentation.png)
+
 
 JavaScript is the programming language of the web; it is undoubtedly the most popular language in the world. Brendan Eich developed JavaScript in 1995 to develop a programming language that would appeal to amateur programmers like Microsoft Visual Basic. Basically, JavaScript is used to add functionality to web pages, but over the years, JavaScript has evolved and is now widely used outside the browser. JavaScript enables developers to create interactivity and functionality for web applications.
 
