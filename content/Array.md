@@ -1,6 +1,6 @@
 ---
 
-title: "Array"
+title: "JavaScript Array"
 
 ---
 
