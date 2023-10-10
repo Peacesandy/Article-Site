@@ -1,6 +1,6 @@
 ---
 
-title: "JavaScript Variables"
+title: "Basic Syntax"
 
 ---
 
