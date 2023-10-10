@@ -1,6 +1,6 @@
 ---
 author: "Peace Sandy"
-title: "JavaScript Handbook for Beginners"
+title: "Introduction to JavaScript"
 date: "2022-08-16"
 ---
 
