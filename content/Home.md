@@ -16,3 +16,8 @@ Before using a variable in a JavaScript Program, it need to be declared. They ar
 1. Use `const` if the value should not be changed
 2. Use `const` if the type should not be changed [Arrays and Objects]
 3. `let` is usually used if you can't use `const`.
+
+## Types of Variables in JavaScript
+1. **Local Variables** : These are variables declared inside of a block or function
+
+2. **Global Variables** : These are variables declared outside a function or with a window object. 
