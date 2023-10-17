@@ -21,3 +21,21 @@ Before using a variable in a JavaScript Program, it need to be declared. They ar
 1. **Local Variables** : These are variables declared inside of a block or function
 
 2. **Global Variables** : These are variables declared outside a function or with a window object. 
+
+## JavaScript Operators
+
+JavaScript expressions and operators are used to compare values, perform arithmetic operations, assign values, operations.
+We have different types of JavaScript Operators.
+
+1. **Arithmetic Operators**: They are used to compare the value, they are usually used to compute the value and to perform mathematical operations like addition and subtraction. 
+
+Arithmetic operators include but is not limited to [+, -, *, /]
+
+Example
+
+```JavaScript
+let x = 5
+let y = 5
+
+console.log[X+y]; //  10
+```
