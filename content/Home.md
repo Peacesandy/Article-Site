@@ -27,12 +27,9 @@ Before using a variable in a JavaScript Program, it need to be declared. They ar
 JavaScript expressions and operators are used to compare values, perform arithmetic operations, assign values, operations.
 We have different types of JavaScript Operators.
 
-1. **Arithmetic Operators**: They are used to compare the value, they are usually used to compute the value and to perform mathematical operations like addition and subtraction. 
-
-Arithmetic operators include but is not limited to [+, -, *, /]
+1. **Arithmetic Operators**: They are used to compare the value, they are usually used to compute the value and to perform mathematical operations like addition and subtraction. Arithmetic operators include but is not limited to [+, -, *, /]
 
 Example
-
 ```JavaScript
 let x = 5
 let y = 5
